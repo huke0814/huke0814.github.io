@@ -4,16 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="my first, Huke8&#39;s Blog">
-    <meta name="description" content="markdown教程一、标题# 一级标题
-## 二级标题
-### 三级标题
-注意井号与标题之间有一个空格
-按enter键可以退出各级操作的对齐，例如小黑点，数字序号，引用等
-二、插入链接[链接名字](链接地址)
-例如
-
-​         ">
+    <meta name="keywords" content="Git教程, Huke8&#39;s Blog">
+    <meta name="description" content="一、创建版本库
+首先需要在合适的地方创建一个空目录：打开Git Bash，cd到要创建目录的路径，执行以下命令。
+$ mkdir 目录名字
+$ cd 目录名字
+$ pwd
+/Users/michael/目录名字
+pwd命令用于显示当前路径。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +19,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>my first | Huke8&#39;s Blog</title>
+    <title>Git教程 | Huke8&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -252,13 +250,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        my first
+                        Git教程
                     </div>
                 </div>
             </div>
@@ -382,8 +380,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Software-language/" class="post-category">
-                                Software language
+                            <a href="/categories/software-language/" class="post-category">
+                                software language
                             </a>
                         
                     </div>
@@ -394,21 +392,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-09-21
+                    2019-09-22
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        683
+                        735
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        3 分
                     </div>
                     
                 
@@ -424,160 +422,81 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="markdown教程"><a href="#markdown教程" class="headerlink" title="markdown教程"></a>markdown教程</h1><h2 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h2><pre class=" language-txt"><code class="language-txt"># 一级标题
-## 二级标题
-### 三级标题
-注意井号与标题之间有一个空格
-按enter键可以退出各级操作的对齐，例如小黑点，数字序号，引用等</code></pre>
-<h2 id="二、插入链接"><a href="#二、插入链接" class="headerlink" title="二、插入链接"></a>二、插入链接</h2><pre><code>[链接名字](链接地址)</code></pre><ul>
-<li>例如</li>
-</ul>
-<p>​                <a href="www.baidu.com">百度</a></p>
-<h2 id="三、插入图片"><a href="#三、插入图片" class="headerlink" title="三、插入图片"></a>三、插入图片</h2><pre><code>![]()</code></pre><blockquote>
-<p>图片链接可以是本地的，也可以是网络上的，例如百度图片的链接，或者存在你的GitHub上的图片</p>
-<p>括号内可以加图片标题。(即鼠标放在图片上可以显示内容)</p>
-</blockquote>
-<ul>
-<li>图例</li>
-</ul>
-<p><img src="C:%5CUsers%5Chuke0%5CDesktop%5C%E4%BB%A3%E7%A0%81%E9%80%9F%E6%9F%A5%E8%A1%A8%5Csk.png" alt="插入图片" title="我的标题"></p>
-<ul>
-<li><p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
-<img src="C:\Users\huke0\Desktop\代码速查表\sk.png" width="60%" height="50">
-
+                <h1 id="一、创建版本库"><a href="#一、创建版本库" class="headerlink" title="一、创建版本库"></a>一、创建版本库</h1><ul>
+<li><p>首先需要在合适的地方创建一个空目录：打开<code>Git Bash</code>，<code>cd</code>到要创建目录的路径，执行以下命令。</p>
+<pre class=" language-git"><code class="language-git">$ mkdir 目录名字
+$ cd 目录名字
+$ pwd
+/Users/michael/目录名字</code></pre>
+<p><code>pwd</code>命令用于显示当前路径。切记各个目录名字都不要包含中文。</p>
+</li>
+<li><p>再把这个目录变成版本库</p>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git init</span>
+Initialized empty Git repository in /Users/michael/目录名字/.git/</code></pre>
+<p>这样一个空的版本库就创建完成了。</p>
+<p>下次要进入这个仓库时，先打开仓库的目录，在该目录下，右键选择<code>Git Bash Here</code>，就可以操作这个仓库了。</p>
 </li>
 </ul>
-<h2 id="四、文字引用"><a href="#四、文字引用" class="headerlink" title="四、文字引用"></a>四、文字引用</h2><pre><code>&gt; 引用内容
-&gt;&gt; 引用内容
-&gt;&gt;&gt; 引用内容</code></pre><blockquote>
-<p>一切皆有可能 </p>
-<blockquote>
-<p>一切皆有可能 </p>
-<blockquote>
-<p>一切皆有可能 </p>
-</blockquote>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>一切皆有可能</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<ul>
-<li><ul>
-<li><ul>
-<li>一切皆有可能 </li>
-</ul>
+<h1 id="二、把文件添加到版本库"><a href="#二、把文件添加到版本库" class="headerlink" title="二、把文件添加到版本库"></a>二、把文件添加到版本库</h1><ul>
+<li><p>使用<code>vi</code>命令进入<code>readme.txt</code>文件，如果文件不存在将会创建。</p>
+<pre class=" language-git"><code class="language-git">$ vi readme.txt</code></pre>
+<p>这时界面进入到<code>readme.txt</code>文件中。</p>
+<p>输入命令<code>a</code>后，就可以编辑文件了。（命令显示在窗口的最下面）</p>
+<p>编辑完成后，按<code>Esc</code>键退出编辑，再输入命令<code>: wq</code>即可退出文件(或者大写<code>ZZ</code>即按住<code>shift</code>+<code>zz</code>)。</p>
 </li>
-</ul>
+<li><p>把文件添加到仓库中。</p>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git add readme.txt</span></code></pre>
+<p>执行上面的命令，没有任何显示则说明添加成功了。</p>
 </li>
-</ul>
-</blockquote>
-</blockquote>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>一切皆有可能 </p>
-</blockquote>
+<li><p>再把文件提交到仓库中。</p>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git commit<span class="token parameter"> -m</span> </span><span class="token string">"wrote a readme file"</span>
+[master (root-commit) eaadf4e] wrote a readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt</code></pre>
+<p><code>-m</code>后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。</p>
 </li>
-</ul>
-<h2 id="五、段落格式"><a href="#五、段落格式" class="headerlink" title="五、段落格式"></a>五、段落格式</h2><h4 id="1、粗体和斜体"><a href="#1、粗体和斜体" class="headerlink" title="1、粗体和斜体"></a>1、粗体和斜体</h4><pre><code>*斜体*
-**粗体**
-***粗斜体***</code></pre><ul>
-<li>例如：   <em>斜体</em>  <strong>粗体</strong> <strong><em>粗斜体</em></strong></li>
-</ul>
-<hr>
-<h4 id="2、分割线"><a href="#2、分割线" class="headerlink" title="2、分割线"></a>2、分割线</h4><pre><code>***
-* * *</code></pre><hr>
-<h4 id="3、删除线"><a href="#3、删除线" class="headerlink" title="3、删除线"></a>3、删除线</h4><pre><code>~~删除~~</code></pre><ul>
-<li>例如：<del>删除</del></li>
-</ul>
-<hr>
-<h4 id="4、下划线"><a href="#4、下划线" class="headerlink" title="4、下划线"></a>4、下划线</h4><hr>
-<h4 id="5、脚注"><a href="#5、脚注" class="headerlink" title="5、脚注"></a>5、脚注</h4><p><code>master</code></p>
-<hr>
-<h4 id="6、列表"><a href="#6、列表" class="headerlink" title="6、列表"></a>6、列表</h4><ul>
-<li><p>无序列表(<code>*</code> <code>+</code> <code>-</code>)</p>
-<pre><code>- 第一项
-- 第二项</code></pre></li>
-</ul>
-<hr>
-<ul>
-<li><p>有序列表(序号+<code>.</code>)</p>
-<pre><code>1. 第一项
-2. 第二项
-</code></pre><ol>
-<li>第一</li>
-<li>第二</li>
+<li><p>可以看出，添加文件到Git仓库，分两步：</p>
+<ol>
+<li>使用命令<code>git add &lt;file&gt;</code>，注意，可反复多次使用，添加多个文件；</li>
+<li>使用命令<code>git commit -m &lt;message&gt;</code>，完成。</li>
 </ol>
-<p>进入列表格式后，按<code>Enter</code>会延续列表格式，如果要退出该格式，则继续按一次<code>Enter</code>。</p>
 </li>
 </ul>
-<h2 id="六、代码引用"><a href="#六、代码引用" class="headerlink" title="六、代码引用"></a>六、代码引用</h2><pre class=" language-txt"><code class="language-txt">单行引用：`hello world`
-多行引用： ```python
-注意：`是键盘左上角的~键
-    加上语言名字后代码会高亮
-</code></pre>
-<ul>
-<li><p>例如：</p>
-<p>​        单行引用：各种编程语言都习惯用<code>hello world</code>作为用例。</p>
-<p>​        多行引用：</p>
-<pre class=" language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'hello world'</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">123456</span><span class="token punctuation">)</span>
-</code></pre>
+<h1 id="三、时光穿梭"><a href="#三、时光穿梭" class="headerlink" title="三、时光穿梭"></a>三、时光穿梭</h1><blockquote>
+<p>记录你修改文件的历史</p>
+</blockquote>
+<h3 id="1、修改文件"><a href="#1、修改文件" class="headerlink" title="1、修改文件"></a>1、修改文件</h3><ul>
+<li><p>按照之前讲解的编辑<code>readme.txt</code>文件的步骤，对文件进行修改。</p>
+</li>
+<li><p>运行<code>git status</code>命令可以看结果：</p>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git status</span>
+On branch master
+Changes not staged for commit:
+  (use <span class="token string">"git add &lt;file>..."</span> to update what will be committed)
+  (use <span class="token string">"git checkout -- &lt;file>..."</span> to discard changes in working directory)
+
+    modified:   readme.txt
+
+no changes added to commit (use <span class="token string">"git add"</span> and/or <span class="token string">"git commit -a"</span>)</code></pre>
+<p>只告诉了我们<code>readme.txt</code>被修改过了，但是还没有被提交。</p>
+</li>
+<li><p>运行<code>git diff</code>命令可以看到具体修改了什么：</p>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git diff readme.txt </span>
+diff --git a/readme.txt b/readme.txt
+index 46d49bf..9247db6 100644
+<span class="token deleted">--- a/readme.txt</span>
+<span class="token inserted">+++ b/readme.txt</span>
+<span class="token coord">@@ -1,2 +1,2 @@</span>
+<span class="token deleted">-Git is a version control system.</span>
+<span class="token inserted">+Git is a distributed version control system.</span>
+ Git is free software.</code></pre>
+<p><code>-</code>和<code>+</code>分别对应着修改前和修改后的内容，一目了然。</p>
+</li>
+<li><p>最后再运行<code>git add &lt;file&gt;</code>和<code>git commit -m &lt;message&gt;</code>命令，把你修改后的文件添加并提交到仓库中。</p>
+<p>注意：任何时候你都可以运行<code>git status</code>命令来查看当前的状态，如果<code>git status</code>告诉你有文件被修改过，则可以用<code>git diff</code>查看修改内容。</p>
 </li>
 </ul>
-<h2 id="七、嵌入HTML"><a href="#七、嵌入HTML" class="headerlink" title="七、嵌入HTML"></a>七、嵌入HTML</h2><ul>
-<li>例如： 把网站的API嵌入</li>
-<li>百度地图API：<a href="http://api.map.baidu.com/lbsapi/createmap/index.html" target="_blank" rel="noopener">http://api.map.baidu.com/lbsapi/createmap/index.html</a>  没有密钥搞不成</li>
-<li>嵌入YouTube：找到视频地址，点击分享中的嵌入按钮，复制代码，在markdown文件中粘贴。</li>
-<li></li>
-</ul>
-<iframe width="560" height="415" src="https://www.youtube.com/embed/dA8Kea3cWXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<p>bilibili</p>
-<iframe src="//player.bilibili.com/player.html?aid=68142772&cid=118091292&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<h1 id="八、表格"><a href="#八、表格" class="headerlink" title="八、表格"></a>八、表格</h1><ul>
-<li>Markdown 制作表格使用 <code>|</code>来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行.</li>
-</ul>
-<pre><code>|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-</code></pre><table>
-<thead>
-<tr>
-<th align="center">表头</th>
-<th align="center">表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">单元格</td>
-<td align="center">单元格</td>
-</tr>
-<tr>
-<td align="center">单元格</td>
-<td align="center">单元格</td>
-</tr>
-</tbody></table>
-<h1 id="九、插入数学公式"><a href="#九、插入数学公式" class="headerlink" title="九、插入数学公式"></a>九、插入数学公式</h1><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 <code>$$</code>包裹<strong>TeX</strong>或<strong>LaTeX格式</strong>的数学公式来实现。如:</p>
-<pre><code>$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
-\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
-\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
-\end{vmatrix}
-$$
-</code></pre><ul>
-<li>输出为：</li>
-</ul>
-<p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>$$</p>
-
+<h3 id="2、版本退回"><a href="#2、版本退回" class="headerlink" title="2、版本退回"></a>2、版本退回</h3>
             </div>
             <hr/>
 
@@ -615,11 +534,11 @@ $$
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《my first》
+                    《Git教程》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/21/my-first/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/22/git-jiao-cheng/" property="cc:attributionName"
                rel="cc:attributionURL">
-                Huke8
+                huke8
             </a> 采用
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">
                 知识共享署名 4.0 国际许可协议
@@ -657,9 +576,10 @@ $$
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/09/22/git-jiao-cheng/">
                     <div class="card-image">
@@ -677,9 +597,9 @@ $$
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock fa-fw icon-date"></i>2019-09-22
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock fa-fw icon-date"></i>2019-09-22
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -692,6 +612,7 @@ $$
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -710,19 +631,27 @@ $$
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/21/hello-world/">
+                <a href="/2019/09/21/my-first/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="my first">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">my first</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            markdown教程一、标题# 一级标题
+## 二级标题
+### 三级标题
+注意井号与标题之间有一个空格
+按enter键可以退出各级操作的对齐，例如小黑点，数字序号，引用等
+二、插入链接[链接名字](链接地址)
+例如
+
+​         
                         
                     </div>
                     <div class="publish-info">
@@ -731,11 +660,23 @@ $$
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            Huke8
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Software-language/" class="post-category">
+                                    Software language
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/随记/">
+                        <span class="chip bg-color">随记</span>
+                    </a>
+                    
                 </div>
                 
             </div>

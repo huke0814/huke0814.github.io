@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huke0814.github.io/"/>
-  <updated>2019-09-22T07:26:55.126Z</updated>
+  <updated>2019-09-22T14:09:14.173Z</updated>
   <id>http://huke0814.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git教程</title>
+    <link href="http://huke0814.github.io/2019/09/22/git-jiao-cheng/"/>
+    <id>http://huke0814.github.io/2019/09/22/git-jiao-cheng/</id>
+    <published>2019-09-22T14:06:55.000Z</published>
+    <updated>2019-09-22T14:09:14.173Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一、创建版本库&quot;&gt;&lt;a href=&quot;#一、创建版本库&quot; class=&quot;headerlink&quot; title=&quot;一、创建版本库&quot;&gt;&lt;/a&gt;一、创建版本库&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;首先需要在合适的地方创建一个空目录：打开&lt;code&gt;Git
+        
+      
+    
+    </summary>
+    
+    
+      <category term="software language" scheme="http://huke0814.github.io/categories/software-language/"/>
+    
+    
+      <category term="随记" scheme="http://huke0814.github.io/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>my first</title>
@@ -48,7 +76,7 @@
     <link href="http://huke0814.github.io/2019/09/21/hello-world/"/>
     <id>http://huke0814.github.io/2019/09/21/hello-world/</id>
     <published>2019-09-21T13:26:57.851Z</published>
-    <updated>2019-09-21T13:26:57.851Z</updated>
+    <updated>2019-09-22T13:42:37.190Z</updated>
     
     <summary type="html">
     
