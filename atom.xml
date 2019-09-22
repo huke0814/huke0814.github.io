@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Huke8&#39;s Blog</title>
+  
+  <subtitle>每天都要保持战斗状态！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://huke0814.github.io/"/>
+  <updated>2019-09-21T15:25:36.925Z</updated>
+  <id>http://huke0814.github.io/</id>
+  
+  <author>
+    <name>Huke8</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first</title>
+    <link href="http://huke0814.github.io/2019/09/21/my-first/"/>
+    <id>http://huke0814.github.io/2019/09/21/my-first/</id>
+    <published>2019-09-21T13:34:52.000Z</published>
+    <updated>2019-09-21T15:25:36.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;markdown教程&quot;&gt;&lt;a href=&quot;#markdown教程&quot; class=&quot;headerlink&quot; title=&quot;markdown教程&quot;&gt;&lt;/a&gt;markdown教程&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="随记" scheme="http://huke0814.github.io/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://huke0814.github.io/2019/09/21/hello-world/"/>
+    <id>http://huke0814.github.io/2019/09/21/hello-world/</id>
+    <published>2019-09-21T13:26:57.851Z</published>
+    <updated>2019-09-21T13:26:57.851Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
