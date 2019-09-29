@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2019/09/29/dian-ci-chang-yu-dian-ci-bo/"/>
+      <url>/2019/09/29/dian-ci-chang-yu-dian-ci-bo/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="电磁模型"><a href="#电磁模型" class="headerlink" title="电磁模型"></a>电磁模型</h2><blockquote><p>一个模型包含三个方面：基本量、运算规则、基本原理。</p></blockquote><h5 id="与电路模型类比"><a href="#与电路模型类比" class="headerlink" title="与电路模型类比"></a>与电路模型类比</h5><blockquote><p>基本量：电压$V$、电流$I$、电阻$R$、电容$C$、电感$L$</p><p>运算规则：代数运算、常微分方程、拉普拉斯变换</p><p>基本原理：基尔霍夫电压定律、基尔霍夫电流定律</p></blockquote><p><strong>选择适当的电磁模型建立电磁理论</strong></p><blockquote><p>基本量</p><blockquote><p>分为两类—源量和场量</p><p>$q$、$\rho$、$\boldsymbol{J}$</p><p>$ \boldsymbol{E}$、$\boldsymbol{D}$、$\boldsymbol{B}$、$\boldsymbol{H}$</p></blockquote><p>运算规则：矢量代数、矢量微积分、偏微分方程</p><p>基本原理：（<em>分为三个子步骤</em>）</p></blockquote><h1 id="第二章-矢量分析"><a href="#第二章-矢量分析" class="headerlink" title="第二章 矢量分析"></a>第二章 矢量分析</h1><blockquote><p>三个主要问题：</p><blockquote><p>矢量代数——矢量的加法、减法、乘法</p><p>正交坐标系——直角坐标系、圆柱坐标系、球面坐标系</p><p>矢量微积分——矢量的微分和积分；线积分、面积分、体积分；“del”运算符；梯度、散度和旋度的运算</p></blockquote></blockquote><h4 id="1、矢量的加法和减法"><a href="#1、矢量的加法和减法" class="headerlink" title="1、矢量的加法和减法"></a>1、矢量的加法和减法</h4><h4 id="2、矢量的乘法"><a href="#2、矢量的乘法" class="headerlink" title="2、矢量的乘法"></a>2、矢量的乘法</h4><p>点积</p><p>叉积</p><p>标量三重积</p><p>矢量三重积</p><h4 id="3、"><a href="#3、" class="headerlink" title="3、"></a>3、</h4><h1 id="第三章-静电场"><a href="#第三章-静电场" class="headerlink" title="第三章 静电场"></a>第三章 静电场</h1><p>由电荷到两个点电荷之间的作用力——库仑定律</p><p>再提出电场强度的概念：每单位电荷所受的力</p><p>再到真空中静电学的两个基本公理，它们由电场强度的散度和旋度描述</p><p>再由散度定理和斯托克斯定理推出高斯定理和环路定理</p><p>开始描述点电荷场强→电偶极子场强→连续分布电荷的场强</p><p>高斯定理的应用</p><p>提出电位的概念，并推出电位与电场强度的关系，由于电位是标量，场强是矢量，那么如果我们更容易确定电位v，这样场强E就可以通过他俩的关系式运算得到了。起到一个转换的作用，是不是很吊<br>所以我们要知道什么是电位，以及分布式电荷的电位</p><p>讲完真空中静止分布电荷的电场后，现在开始要研究媒质中电场的特性了，包括导体和电介质</p><p>在讲电介质的时候提出了两个新的概念，等效极化面电荷密度和等效极化体电荷密度，既然有两种电荷密度的概念了，那么在最初提出的静电学的两个基本公理中所提到的电荷密度怎么办呢，所以我们要对散度定理作出修正，这样就顺理成章的提出了电位移即电筒密度D和介电常数</p><p>现在真空中的分析，媒质中的也分析了，那么他们的分界面又是什么情况呢，这样就得研究静电场的边界条件，</p><p>电容和电容器</p><p>静电能量和静电力</p><p><img src="https://pic4.zhimg.com/37780f08a626aba4e856927d3c85e8bf_r.jpg" alt="导图"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git教程</title>
       <link href="/2019/09/22/git-jiao-cheng/"/>
       <url>/2019/09/22/git-jiao-cheng/</url>
